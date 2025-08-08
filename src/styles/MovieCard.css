@@ -1,0 +1,43 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	margin: 15px;
+	margin-bottom: 45px;
+}
+
+.card__img {
+	height: 250px;
+	border-radius: 5px;
+}
+
+.card__title {
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+.card__buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card__rating {
+	background-color: rgb(0, 186, 0);
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline;
+}
+
+.btn {
+	font-size: 13px;
+	background-color: orangered;
+	padding: 5px 15px;
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+}

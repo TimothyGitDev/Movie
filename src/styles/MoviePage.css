@@ -1,0 +1,53 @@
+.moviePG__link {
+	margin-bottom: 20px;
+}
+
+.moviePG__info {
+	display: flex;
+}
+
+.moviePG__img {
+	width: 200px;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.moviePG__info-text {
+	margin-left: 20px;
+}
+
+.moviePG__info-text h3 {
+	font-size: 25px;
+	margin: 0;
+	margin-bottom: 27px;
+}
+
+.moviePG__desc {
+	font-size: 12px;
+	width: 150px;
+}
+
+.moviePG__rating {
+	margin-top: 40px;
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 0 10px;
+}
+
+.moviePG__rating h4 {
+	font-weight: 550;
+}
+
+.moviePG__rating b {
+	background-color: greenyellow;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.trailer__container {
+	margin-top: 50px;
+}
+
+.trailer__container iframe {
+	border-radius: 10px;
+}
